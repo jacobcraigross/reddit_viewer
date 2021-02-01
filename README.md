@@ -1,1 +1,1 @@
-Tinkering with Vue 
+Reddit viewer React app. 
