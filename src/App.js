@@ -3,7 +3,7 @@ import Article from './components/Articles';
 
 function App() {
   const [articles, setArticles] = useState([]);
-  const [subreddit, setSubreddit] = useState('wallstreetbbets');
+  const [subreddit, setSubreddit] = useState('unsolvedmysteries');
 
   useEffect(() => {
     fetch("https://www.reddit.com/r/" + subreddit + ".json")
